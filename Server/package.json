@@ -1,0 +1,17 @@
+{
+  "name": "musicplayerusingreact",
+  "version": "1.0.0",
+  "description": "this is a basic music player using react and nodejs which will using use login and previous tacks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Akshat Kumar Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  }
+}

@@ -1,0 +1,65 @@
+
+
+.container{
+    background-color: rgba(255, 255, 255, 0.315);
+    height: 80%;
+    width: 90%;
+    border-radius: 3.6rem;
+    backdrop-filter: blur(15px);
+    transition: all 0.2s;
+
+}
+
+.container:hover{
+    transform: scale(1.05);
+}
+
+.userProfile{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    justify-content: space-evenly;
+    margin: 1.5rem 0;
+}
+
+.userProfile img{
+    background-color: white;
+    border-radius: 100%;
+    padding: 0.6rem;
+    margin: 0.5rem 2rem;
+}
+
+.user-details{
+    display: flex;
+    align-items: center;
+    width: 900px;
+
+    justify-content: space-evenly;
+}
+
+.previousTracks{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 72%;
+    border-bottom-left-radius: 3.6rem;
+    border-bottom-right-radius: 3.6rem;
+    width:100% ;
+}
+
+.btn-login{
+    background-color: white;
+    margin-left: 2rem;
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 3px solid black;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}

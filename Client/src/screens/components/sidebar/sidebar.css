@@ -1,0 +1,19 @@
+
+
+
+.sidebar-area{
+    height: 100vh;
+    width: 10%;
+    background-color: #4d4d50;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at center center, transparent 0, #4d4d50 40px ), repeating-linear-gradient( #00000055, #000000 );
+}
+
+.sidebar-container{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
